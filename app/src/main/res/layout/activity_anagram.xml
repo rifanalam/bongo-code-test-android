@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="80dp"
+        tools:context=".anagram.AnagramActivity">
+
+        <EditText
+            android:id="@+id/editTextFirstInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First input" />
+
+        <EditText
+            android:id="@+id/editTextSecondInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Second input" />
+
+        <Button
+            android:id="@+id/buttonAnagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Anagram" />
+
+    </LinearLayout>
+</layout>
